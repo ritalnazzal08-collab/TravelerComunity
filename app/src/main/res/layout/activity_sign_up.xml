@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textColorHint="#087481"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:textColorHint="#087481"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="#087481"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/password_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#087481"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sign Up"
+        android:textSize="22dp"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#087481"
+        android:textColorHint="#FDFDFD"/>
+
+
+</LinearLayout>
