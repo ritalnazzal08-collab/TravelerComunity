@@ -28,12 +28,14 @@ public class LogoActivity extends AppCompatActivity {
         @Override
         public void run(){
             try {
-                Thread.sleep(3000);
+               Thread.sleep(3000);
                 Intent intent = new Intent(LogoActivity.this,SignInActivity.class);
                 startActivity(intent);
+                finish();
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
+
         }
     }
 }

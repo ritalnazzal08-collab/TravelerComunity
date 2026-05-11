@@ -13,15 +13,16 @@
         android:theme="@style/Theme.TravelerCommunity">
         <activity
             android:name=".SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LogoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SignInActivity"
-            android:exported="false" />
+            android:exported="true" />
+
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LogoActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
