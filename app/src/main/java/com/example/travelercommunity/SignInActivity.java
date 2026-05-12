@@ -3,6 +3,7 @@ package com.example.travelercommunity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -13,6 +14,11 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class SignInActivity extends AppCompatActivity {
     private TextView signup;
+
+    private TextView signIn;
+    private EditText emailET;
+    private EditText passwordET;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,11 +35,13 @@ public class SignInActivity extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SignInActivity.this,SignUpActivity.class);
+                Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
                 startActivity(intent);
                 finish();
             }
-        });
+        }
+
 
     }
+
 }
